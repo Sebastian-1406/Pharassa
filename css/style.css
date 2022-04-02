@@ -257,6 +257,9 @@ mark,
 	font-size: 18px;
 	line-height: 1.66667;
 }
+.flex-inverse {
+	flex-direction: row-reverse;
+}
 
 .lead {
 	font-size: 24px;
