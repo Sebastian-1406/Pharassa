@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en"> 
+<html class="wide wow-animation" lang="es"> 
   <head>
     <title>Contacto</title>
     <meta charset="utf-8">
@@ -8,12 +8,10 @@
     <link rel="icon" href="images/logo-16x16.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
@@ -55,7 +53,8 @@
           </nav>
         </div>
       </header>
-      <section class="parallax-container overlay-1" data-parallax-img="images/breadcrumbs.jpg">
+      <section class="parallax-container overlay-1 section-hero">
+        <div class="material-parallax parallax parallax-contacto"></div>
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">
@@ -75,7 +74,7 @@
           <div class="row row-50">
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-classic">
-                <div class="box-icon-inner decorate-triangle"><span class="icon-xl linearicons-phone-incoming"></span></div>
+                <div class="box-icon-inner decorate-triangle"><svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#444444" d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg></div>
                 <div class="box-icon-caption">
                   <h4><a href="tel:#">+51 941493123</a></h4>
                   <p>Puedes llamarnos en cualquer momento</p>
@@ -84,15 +83,15 @@
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-classic">
-                <div class="box-icon-inner decorate-circle"><span class="icon-xl linearicons-map2"></span></div>
+                <div class="box-icon-inner decorate-circle"><svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#444444" d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg></div>
                 <div class="box-icon-caption">
-                  <h4><a href="#">Jr, Cuzco 292, Cercado de lima</a></h4>
+                  <h4><a href="#mapa">Jr, Cuzco 292, Cercado de lima</a></h4>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-classic">
-                <div class="box-icon-inner decorate-rectangle"><span class="icon-xl linearicons-paper-plane"></span></div>
+                <div class="box-icon-inner decorate-rectangle"><svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#444444" d="M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z"/></svg></div>
                 <div class="box-icon-caption">
                   <h4><a href="mailto:#">info@pharassa.pe</a></h4>
                   <p>No dude en enviarnos un correo electrónico con sus preguntas</p>
@@ -103,7 +102,7 @@
         </div>
       </section>
       <!--Google Map-->
-      <section class="section">
+      <section class="section" id="mapa">
         <iframe class="google-map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8803646510637!2d-77.02982825439862!3d-12.051751587447256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b75f116bd7%3A0x88266cd0bec30f68!2sCentro%20Comercial%20Amazonas!5e0!3m2!1ses!2spe!4v1647637872970!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </section>
       <!-- Contact us-->
@@ -145,7 +144,7 @@
         <div class="container wow-outer">
           <div class="wow fadeIn">
             <div class="row row-60">
-              <div class="col-12"><a href="index.html"><img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/40/7023808040_84b4a631-3b47-4ca8-af6f-a06d2f4fb332.png?cb=1648160862" alt="" width="140" height="57" srcset="images/logo-default-280x113.png 2x"/></a></div>
+              <div class="col-12"><a href="index.html"><img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/40/7023808040_84b4a631-3b47-4ca8-af6f-a06d2f4fb332.png?cb=1648160862" alt="" width="140" height="57" ></a></div>
               <div class="col-12">
                 <ul class="footer-minimal-nav">
                   <li><a href="Index.html">Inicio</a></li>
@@ -156,9 +155,9 @@
               </div>
               <div class="col-12">
                 <ul class="social-list">
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white facebook" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white instagram" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white whatsapp" href="https://wa.me/917055724" target="blank"></a></li>
                 </ul>
               </div>
             </div>

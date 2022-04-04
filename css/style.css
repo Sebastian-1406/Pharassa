@@ -726,6 +726,9 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-icon-inner {
 	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .box-icon-inner > * {
@@ -859,6 +862,9 @@ a[href*='tel'], a[href*='mailto'] {
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
+.parallax-contacto {
+	background-image: url("https://cdn.pixabay.com/photo/2020/06/10/07/56/heaven-5281668_960_720.jpg");
+}
 @media (min-width: 576px) {
 	.section-hero {
 		display: inherit;
@@ -880,6 +886,9 @@ a[href*='tel'], a[href*='mailto'] {
 	}
 	.material-parallax {
 		background-image: url("../images/lego-g54e37ae5c_1920.jpg");
+	}	
+	.parallax-contacto {
+		background-image: url("https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_960_720.jpg");
 	}
 }
 
@@ -2176,7 +2185,10 @@ html .list-inline-md > * {
 	position: relative;
 	padding-left: 25px;
 }
-
+.iconos {
+	width: 35px;
+	height: 35px;
+}
 .list-marked > li::before {
 	position: absolute;
 	display: inline-block;
@@ -6785,12 +6797,19 @@ html:not(.lt-ie10) .not-animated {
 	text-decoration: none;
 	transition: .45s all ease-in-out;
 	transform: translate3d(0, 100px, 0);
+	background-image: url("../images/angle-up-solid.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
 }
 
 .ui-to-top:hover {
 	color: #ffffff;
 	background: #000000;
-	text-decoration: none;
+	background-image: url("../images/angle-up-solid.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
 }
 
 .ui-to-top:focus {
@@ -10196,7 +10215,42 @@ html.rd-navbar-fixed-linked .page {
 .owl-carousel .fadeOut {
 	animation-name: fadeOut;
 }
-
+.social-list .facebook{
+	background-image: url("../images/facebook-f-brands.svg");
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: center;
+}
+.social-list .facebook:hover {
+	background-image: url("../images/facebook-f-brands.svg");
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: center;
+}
+.social-list .instagram{
+	background-image: url("../images/instagram-brands.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+.social-list .instagram:hover {
+	background-image: url("../images/instagram-brands.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+.social-list .whatsapp{
+	background-image: url("../images/whatsapp-brands.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+.social-list .whatsapp:hover {
+	background-image: url("../images/whatsapp-brands.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
 @keyframes fadeOut {
 	0% {
 		opacity: 1;
@@ -12789,7 +12843,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	line-height: 0;
 	font-size: 0;
 	cursor: pointer;
-	background: transparent;
 	color: transparent;
 	top: 50%;
 	transform: translate(0, -50%);
@@ -12797,7 +12850,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	border: none;
 	outline: none;
 	z-index: 9;
+	background: transparent;
 }
+
 
 .slick-prev:hover, .slick-prev:focus,
 .slick-next:hover,
@@ -12828,7 +12883,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .slick-prev:before, .slick-next:before {
 	font-family: 'Linearicons';
-	font-size: 24px;
 	line-height: 1;
 	color: #151515;
 	opacity: 1;
@@ -12888,13 +12942,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	right: 0;
 }
 
-[dir="rtl"] .slick-next {
+[dir="rtl"] .slick-next { 
 	left: 0;
 	right: auto;
-}
-
-.slick-next:before {
-	content: '\ec44';
 }
 
 [dir="rtl"] .slick-next:before {
@@ -12995,7 +13045,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .slider-dots .item.slick-current .slick-dot-item img {
-	box-shadow: 4px 8px 8px rgba(21, 21, 21, 0.25);
+	box-shadow: 4px 8px 8px rgb(32 19 19 / 80%);
 }
 
 @media (max-width: 991.98px) {
@@ -13653,4 +13703,20 @@ html .dtp .hidden {
 
 html .dtp .invisible {
 	visibility: hidden;
+}
+.slick-next {
+	background-repeat: no-repeat;
+	background-image: url("../images/angle-right-solid.svg");
+}
+.slick-next:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/angle-right-solid.svg");
+}
+.slick-prev {
+	background-repeat: no-repeat;
+	background-image: url("../images/angle-left-solid.svg");
+}
+.slick-prev:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/angle-left-solid.svg");
 }
